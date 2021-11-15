@@ -1,0 +1,17 @@
+{
+  "name": "find-missing-tests",
+  "version": "1.0.0",
+  "description": "Walks the directory provided and validates that for every *.ts file, a *.spec file exists.",
+  "main": "find-missing-tests.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "cls && node dist/find-missing-tests.js",
+    "test": "echo \"Error: no test specified, lol\" && exit 1"
+  },
+  "author": "Sean Street",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
