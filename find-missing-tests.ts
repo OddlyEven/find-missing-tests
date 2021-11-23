@@ -1,6 +1,6 @@
 /*
-  Compile: 	npm run build
-  Run:			npm run start [path] [output]?
+  Compile: npm run build
+  Run: npm run start [path] [output]?
   npm run start C:\azure-repos\clientworks.account-attribute-mgmt.web
   node dist/find-missing-tests.js C:\azure-repos\clientworks.account-attribute-mgmt.web
 */
